@@ -1,0 +1,29 @@
+# Site settings
+name: Lionel Rigoux
+email: lionel.rigoux@gmail.com
+url: "http://lionel-rigoux.github.io" # the base hostname & protocol for your site
+description: > # this means to ignore newlines until "baseurl:"
+  Some description here.
+title: "Lionel Rigoux"
+baseurl: "" # the subpath of your site, e.g. /blog/
+
+gems:
+  - octopress-autoprefixer
+  
+# Social
+twitter: 
+dribbble: 
+instagram: 
+github: lionel-rigoux
+
+# Build settings
+markdown: kramdown
+
+# Serving
+port: 4000
+host: 0.0.0.0
+
+permalink: pretty
+
+sass:
+    style: :compressed

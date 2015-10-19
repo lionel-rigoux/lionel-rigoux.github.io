@@ -1,0 +1,29 @@
+---
+layout: default
+---
+<article class="post grid">
+	<header class="grid__col grid__col--2-of-8">
+		<h1 class="post__title">Publications</h1>
+		<h2 class="post__headline">{{ page.year}}</h2>
+	</header>
+	<div class="grid__col grid__col--5-of-8">
+		<article>
+			<h1 class="publication__title">{{ page.title}}</h1>
+			<h2 class="publication__authors">{{ page.authors }}</h2>
+			<h2 class="publication__journal">{{ page.journal }}. 
+				{{ page.volume }}
+				{% if page.issue %}
+					({{ page.issue }})
+				{% endif %}
+				{% if page.pages %}
+					: {{ page.pages }}
+				{% endif %}
+			</h2>
+			
+			<p><a href="{{page.weblink}}" target="_blank">Get the pdf from the publisher's website</a></p>
+			{{ content }}
+    	<a href="{{site.baseurl}}/publications"><<</a>
+		</article>
+	</div>
+</article>
+

@@ -1,0 +1,26 @@
+---
+layout: default
+title: Projects
+---
+<article class="projects grid">
+	<header class="grid__col grid__col--2-of-8">
+		{% if page.title %}
+		<h1 class="page__title">{{ page.title }}</h1>
+			{% if page.headline %}
+			<h2 class="page__headline">{{ page.headline }}</h2>
+			{% endif %}
+		{% endif %}
+	</header>
+	<div class="grid__col grid__col--6-of-8">
+		<div class="grid">
+			{% for post in site.categories.project | sort: 'date' | reverse %}
+			<div class="grid__col grid__col--1-of-3">
+				<a href="{{ post.url }}"><h2>{{ post.title }}</h2><img src="{{ post.preview }}" alt="{{ post.title }}" class="imgpreview"/></a>
+			</div>
+			<div class="grid__col grid__col--2-of-3">
+				<br />{{ post.teaser }}
+			</div>
+			{% endfor %}
+		</div>
+	</div>
+</article>
