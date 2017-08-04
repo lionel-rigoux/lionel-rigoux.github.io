@@ -3,7 +3,6 @@ layout: default
 title: home
 ---
 <figure>
-    <img src="/images/home.jpg" class="imghome">
+    <img src="/images/circuit_brain.svg" class="imghome">
     <figcaption></figcaption>
 </figure>
-

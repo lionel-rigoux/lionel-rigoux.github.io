@@ -8,6 +8,11 @@
 Main Styles
 
 -------------------------------- */
+html {
+  height: 100%;
+  margin:0;
+  padding:0;
+}
 
 body {
 	background-color: $color-background;
@@ -15,8 +20,23 @@ body {
 	color: $color-main-text;
 	@extend %transition-4;
 	word-wrap: break-word;
+  height: 100%;
 	margin: 0;
 	padding: $gutter;
+}
+
+.content {
+   min-height:65%;
+   margin-bottom: -80px;
+}
+
+.content:after {
+  content: "";
+  display: block;
+}
+
+.site-footer, .content:after {
+  height: 80px;
 }
 
 .container {
