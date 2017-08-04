@@ -29,8 +29,7 @@ h2 {font-size: 1.4rem;}
 a {
 	color: #111;
 	text-decoration: none;
-	-webkit-transition: all 150ms ease;
-	        transition: all 150ms ease;
+	transition: all 150ms ease;
 }
 
 a:hover,
@@ -47,10 +46,11 @@ input {
 }
 
 [placeholder]:focus::-webkit-input-placeholder {
-	-webkit-transition: all 275ms ease;
-	        transition: all 275ms ease;
+	transition: all 275ms ease;
     -webkit-transform: translate(150px, 0);
+       -moz-transform: translate(150px, 0);
         -ms-transform: translate(150px, 0);
+         -o-transform: translate(150px, 0);
             transform: translate(150px, 0);
     opacity: 0;
 }
