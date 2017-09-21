@@ -3,7 +3,7 @@ layout: page
 title: Visualizations
 ---
 
-# Sampling techniques
+## Sampling techniques
 
 <ul class="posts__list">
 <li>

@@ -36,7 +36,7 @@ input[type=range]::-moz-range-track {
     height: 12px;
     background: #eee;
     border: none;
-    border-radius: 3px;
+    border-radius: 6px;
 }
 input[type=range]::-moz-range-thumb {
     border: none;
@@ -68,11 +68,11 @@ input[type=range]::-ms-track {
 }
 input[type=range]::-ms-fill-lower {
     background: #eee;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 input[type=range]::-ms-fill-upper {
     background: #eee;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 input[type=range]::-ms-thumb {
     border: none;

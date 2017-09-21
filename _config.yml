@@ -9,8 +9,6 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 
 # Social
 twitter: lionel_rigoux
-dribbble:
-instagram:
 github: lionel-rigoux
 
 # Build settings
