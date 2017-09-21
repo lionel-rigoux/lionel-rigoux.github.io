@@ -1,6 +1,6 @@
 ---
 layout: page
-title: visualizations
+title: Visualizations
 ---
 
 ## Sampling techniques
