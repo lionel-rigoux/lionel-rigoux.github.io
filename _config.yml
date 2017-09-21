@@ -5,7 +5,7 @@ url: "http://lionel-rigoux.github.io" # the base hostname & protocol for your si
 description: > # this means to ignore newlines until "baseurl:"
   Some description here.
 title: "Lionel Rigoux"
-baseurl: /
+baseurl: ""
 
 # Social
 twitter: lionel_rigoux
