@@ -5,6 +5,9 @@ title: Visualizations
 
 ## Sampling techniques
 
+### Coming soon!
+
+<!--
 <ul class="posts__list">
 <li>
   <a href="{{ site.baseurl }}/visualizations/sampling">
@@ -13,3 +16,4 @@ title: Visualizations
   </a>
 </li>
 </ul>
+-->
