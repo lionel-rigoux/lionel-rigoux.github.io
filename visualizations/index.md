@@ -5,8 +5,6 @@ title: Visualizations
 
 ## Coming very soon!
 
-### Coming soon!
-
 <!--
 <ul class="posts__list">
 <li>

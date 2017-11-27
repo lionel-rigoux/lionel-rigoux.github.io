@@ -9,8 +9,7 @@ layout: default
 		<article>
 			<h1 class="publication__title">{{page.title}}</h1>
 			<div id="visualization"></div>
-	    <!--<script type="text/javascript" src="https://lionel-rigoux.github.io/visualizations/{{page.script}}"></script>-->
-	    <script type="text/javascript" src="http://localhost:8080/dist/{{page.script}}"></script>
+	    <script type="text/javascript" src="{{ site.d3url}}/{{page.script}}"></script>
 		</article>
 	</div>
 </article>
