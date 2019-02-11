@@ -5,18 +5,18 @@ title: Publications
 
 <ul class="publications__list">
 
-{% assign sorted_publications = (site.categories.publications | sort: 'year' | reverse) %}
+{% assign sorted_publications = site.categories.publications | sort: 'year' | reverse %}
 {% for publication in sorted_publications %}
   {% assign currentdate = date  %}
   {% if currentdate != publication.year %}
     <li id="y{{currentdate}}"><h0>{{ publication.year }}</h0></li>
-    {% assign date = publication.year  %} 
+    {% assign date = publication.year  %}
   {% endif %}
     <li>
     	<a href="{{ publication.url | prepend: site.baseurl }}">
 			<h1 class="publication__title">{{ publication.title}}</h1>
 			<h2 class="publication__authors">{{ publication.authors }}</h2>
-			<h2 class="publication__journal">{{ publication.journal }}. 
+			<h2 class="publication__journal">{{ publication.journal }}.
 				{{ publication.volume }}
 				{% if publication.issue %}
 					({{ publication.issue }})

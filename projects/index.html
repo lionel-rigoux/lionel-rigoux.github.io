@@ -13,7 +13,8 @@ title: Projects
 	</header>
 	<div class="grid__col grid__col--6-of-8">
 		<div class="grid">
-			{% for post in site.categories.project | sort: 'date' | reverse %}
+			{% assign sorted_posts = site.categories.project | sort: 'data' | reverse %}
+			{% for post in sorted_posts %}
 			<div class="grid__col grid__col--1-of-3">
 				<a href="{{ post.url }}"><h2>{{ post.title }}</h2><img src="{{ post.preview }}" alt="{{ post.title }}" class="imgpreview"/></a>
 			</div>
